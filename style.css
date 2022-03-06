@@ -21,7 +21,7 @@ h2, h4 {
 }
 
 h5 {
-    color: red;
+    color: #dd3232;
     font-weight: bold;
 }
 
@@ -51,10 +51,10 @@ p {
 
 section {
     display: inline-block;
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
+    /* width: 45%; */
+    width: 300px;
+    margin: auto;
+    padding: 1.4em;
 }
 
 nav {
@@ -64,8 +64,7 @@ nav {
 }
 
 .more-articles {
-    /* border-top: 1px solid #eee; */
-    border: 1px solid black;
+    border-top: 1px solid #eee;
 }
 
 img {
