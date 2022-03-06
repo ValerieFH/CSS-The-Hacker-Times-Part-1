@@ -47,14 +47,16 @@ li {
 
 p {
     padding: 1em;
+    text-align: justify;
 }
 
 section {
     display: inline-block;
-    /* width: 45%; */
+    /* width: 40%; */
     width: 300px;
     margin: auto;
     padding: 1.4em;
+    
 }
 
 nav {
@@ -64,15 +66,21 @@ nav {
     position: sticky;
     top: 0;
     background-color: white;
-
 }
 
 .more-articles {
     border-top: 1px solid #eee;
+    /* border: 1px solid black; */
+
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer a {
+    padding: 2em;
+    margin-left: 2em;
 }
